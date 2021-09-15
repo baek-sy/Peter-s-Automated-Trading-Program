@@ -1,7 +1,7 @@
 import pyupbit
 import numpy as np
 
-
+#test
 def get_ror(k=0.5):
     df = pyupbit.get_ohlcv("KRW-BTC", count=7)
     df['range'] = (df['high'] - df['low']) * k
